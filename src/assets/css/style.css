@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+body{margin: 0; padding: 0;background: #000;}
+.coming_soon{max-width: 1600px; margin: auto;}
+.outer_section{float: left; width: 100%;}
+.side_img{float:left; width: 50%; background: #000; height: 100vh;}
+.side_img img{width: 100%; max-height: 99vh;}
+.inform{float: left; width: 50%; background: #000;min-height: 100vh; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; flex-direction: column;}
+.heading{float: left; width: 100%;}
+.heading h1{float: left; width: 100%; color: #FFFFFF; text-align: center; font-family: "Montserrat", Sans-serif; font-size: 26px; font-weight: 400; text-transform: uppercase; line-height: 50px; letter-spacing: 10px; word-spacing: 20px; }
+.heading p{text-align: center; color: #C2C2C2; font-family: "Montserrat", Sans-serif; font-size: 13px; font-weight: 300; line-height: 26px; width: 70%; max-width: 70%; margin: 1em 15% 2em 15%;}
+.contact_form{float: left; width: 100%}
+.contact_form form{float: left; width: 100%;}
+.input_field{float: left; width: 70%; margin: 4px 15%; overflow: hidden;}
+.input_field input{float: left; width: 100%; border: none; border-radius: 4px; padding: 10px 0; text-indent: 10px; background-color: #ffffff;color:#7a7a7a; font-family: "Montserrat", Sans-serif; font-size: 13px; font-weight: 300; line-height: 26px;}
+.input_field button{float: left; width: 100%; border: none; border-radius: 4px; padding: 10px; background-color: #BBA18B; color: #ffffff;    font-family: "Montserrat", Sans-serif; font-size: 14px; font-weight: 400; line-height: 26px; text-transform: uppercase; letter-spacing: 3px;}
+.input_field button:hover{cursor: pointer;background-color: #927e6d; }
+.our_email{float: left; width: 100%}
+.our_email p{ margin: 20px auto; text-align: center; color: #C2C2C2; font-family: "Montserrat", Sans-serif; font-size: 14px; font-weight: 400; width: 70%; max-width: 70%; line-height: 26px;}
+.our_email p a{    text-decoration: none !important; color: #BBA18B;}
+.our_email p a:hover{color:#927e6d; }
