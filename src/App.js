@@ -6,6 +6,7 @@ import Coming_soon from './pages/coming_soon'
 function App() {
   return (
       <>
+      
         <Coming_soon/>
       </>
   );
