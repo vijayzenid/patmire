@@ -2,6 +2,8 @@ import React,{useRef,useState } from 'react';
 import Soon from './../assets/images/coming_soon.jpg';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
+import Logo from './../assets/images/logo1.png';
+
 
 function Coming_soon(){
 
@@ -22,7 +24,7 @@ function Coming_soon(){
       .then((result) => {
           console.log(result.text);
           if(result.text == "OK"){
-          	toast.success("Email Sent successfully");
+          	toast.success("Thanks for Registration");
           	document.getElementsByTagName("input")[0].value="";
           	document.getElementsByTagName("input")[1].value="";
           }
@@ -30,8 +32,6 @@ function Coming_soon(){
           console.log(error.text);
       });
   };
-
-
 return(
 		<>
 			<section className="coming_soon">
@@ -41,8 +41,9 @@ return(
 				</div>
 				<div className="inform">
 					<div className="heading">
+					<div className="logo"><img src={Logo}/></div>
 						<h1>COMING SOON</h1>
-						<p>Something new is on the way for ML Designs. We’re in the process of revamping our website and can’t wait to share. Enter your information below to be the first to know when we launch:</p>
+						<p>“Stay tuned. We are launching soon. You will not want to miss this! Be first to know. Enter your information below to know when we launch” what do you think?</p>
 					</div>
 					<div className="contact_form">
 						<form ref={form} onSubmit={sendEmail}>
@@ -58,8 +59,9 @@ return(
    			 </form>
 					</div>
 					<div className="our_email">
-						<p>In the meantime, for new projects inquiries or general information you can email us directly at <a href="mailto:email@midesigns.com"> email@midesigns.com</a>.
+						<p>In the meantime, for new projects inquiries or general information you can email us directly at <a href="mailto:support@patmire.store"> support@patmire.store</a>.
 						</p>
+						<p>Follow us:<a href="https://www.instagram.com/patmire.official/?igshid=YmMyMTA2M2Y%3D" target="_blank">&nbsp;&nbsp;&nbsp;<i className="fa-brands fa-instagram"></i></a></p>
 					</div>
 				</div>
 				</div>
