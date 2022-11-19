@@ -1,5 +1,5 @@
 import React,{useRef,useState } from 'react';
-import Soon from './../assets/images/coming_soon.jpg';
+import Soon from './../assets/images/coming_soon.png';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import Logo from './../assets/images/logo1.png';
@@ -43,7 +43,7 @@ return(
 					<div className="heading">
 					<div className="logo"><img src={Logo}/></div>
 						<h1>COMING SOON</h1>
-						<p>“Stay tuned. We are launching soon. You will not want to miss this! Be first to know. Enter your information below to know when we launch” what do you think?</p>
+						<p>Stay tuned. We are launching soon. You will not want to miss this! Be first to know. Enter your information below to know when we launch</p>
 					</div>
 					<div className="contact_form">
 						<form ref={form} onSubmit={sendEmail}>
