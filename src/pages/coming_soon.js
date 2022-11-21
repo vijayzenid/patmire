@@ -20,7 +20,7 @@ function Coming_soon(){
     	toast.warn("Please Enter Valid Email Address");
     	return
     }
-    emailjs.sendForm('service_9gnh3sb', 'template_yr2u9pf', form.current, 'tzhm6BJNWmSEQcb6w')
+    emailjs.sendForm('service_meh0hgg', 'template_yr2u9pf', form.current, 'tzhm6BJNWmSEQcb6w')
       .then((result) => {
           console.log(result.text);
           if(result.text == "OK"){
@@ -59,7 +59,7 @@ return(
    			 </form>
 					</div>
 					<div className="our_email">
-						<p>In the meantime, for new projects inquiries or general information you can email us directly at <a href="mailto:support@patmire.store"> support@patmire.store</a>.
+						<p>In the meantime, for inquiries or general information you can email us directly at <a href="mailto:support@patmire.store"> support@patmire.store</a>.
 						</p>
 						<p>Follow us:<a href="https://www.instagram.com/patmire.official/?igshid=YmMyMTA2M2Y%3D" target="_blank">&nbsp;&nbsp;&nbsp;<i className="fa-brands fa-instagram"></i></a></p>
 					</div>
